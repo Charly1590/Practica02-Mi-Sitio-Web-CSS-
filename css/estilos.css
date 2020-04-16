@@ -1,0 +1,64 @@
+.iconos{
+    color: white;
+}
+
+h1, h2{
+    font-family: 'Abril Fatface', cursive;
+}
+
+h3, p{
+    font-family: 'Fjalla One', sans-serif;
+}
+
+blockquote p{
+    font-family: 'Lobster', cursive;
+}
+
+.nav li a{
+    text-align: center;
+    background-color:#01B1FF;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.nav li a:hover{
+    background-color: #A6FFFD;
+}
+
+h1{
+    color: white;
+}
+
+h3{
+    color: white;
+}
+
+p{
+    color: white;
+}
+
+div#comentario{
+    color: white;
+    background-color: rgb(2, 60, 85);
+    border: solid 1.5px #01B1FF;
+}
+
+.titulos{
+    color: white;
+}
+
+.imgPer{
+    color: white;
+}
+
+div#contactos{
+    background-color: rgb(173, 87, 25);
+    border: solid 1.5px rgb(255, 106, 0);
+    color: white;
+}
+
+#redesSoc{
+    background-color: rgb(2, 60, 85);
+    border: solid 1.5px #01B1FF;
+    color: white;
+}  
