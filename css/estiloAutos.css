@@ -1,0 +1,32 @@
+body{
+    background-image: url(../imagenes/autosFon.jpg);
+}
+h1, h2{
+    font-family: 'Abril Fatface', cursive;
+    color: black;
+}
+
+span{
+    color: white;
+}
+
+h3, p{
+    /**font-family: 'Fjalla One', sans-serif;**/
+    font-family: 'Abhaya Libre', serif;
+    color: white;
+}
+
+#inicio{
+    background-color: blueviolet;
+    border: solid 2px #01B1FF;
+}
+
+div#colec{
+    background-color: blueviolet;
+    border: solid 2px #01B1FF;
+}
+
+div#caracteristicas{
+    background-color: #01B1FF;
+    border: solid 2px white;
+}

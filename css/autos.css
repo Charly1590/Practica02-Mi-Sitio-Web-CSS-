@@ -1,0 +1,34 @@
+body{
+    background-size: cover;
+    background-attachment: none;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#inicio{
+    float: left;
+    width: 250px;
+    height: max-content;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+div#colec{
+    float: left;
+    width: 1015px;
+    height: max-content;
+    margin-top: 30px;
+    margin-block-end: 10px;
+}
+
+div#caracteristicas{
+    float: left;
+    width: 1015px;
+    height: max-content;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-block-end: 30px;
+    border-radius: 30px;
+}
+

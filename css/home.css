@@ -1,52 +1,20 @@
-
 body{
-    background-image: url(../imagenes/fondo.jpg);
+    background-size: cover;
     background-attachment: fixed;
-}
-
-div#header{
-    float: left;
-    width: 100%;
-    height: 170px;
-}
-
-#search{
-    float: right;
-    width: max-content;
-    margin-top: 50px;
-    margin-left: 35px;
-}
-
-.iconos{
-    float: right;
-    width: max-content;
-    text-align: center;
-}
-
-#marginlogo{
-    margin-left: 15px;
-}
-
-ul{
-    list-style: none;
-}
-
-.nav li a{
-    width: 120px;
-    padding: 10px 15px;
-    display: block;
-}
-
-.nav li{
-    float: left;
+    padding: 0px;
+    margin: 0px;
 }
 
 div#intro{
     float: left;
     width: 350px;
-    margin-top: 25px;
+    margin-top: 45px;
     margin-left: 60px;
     margin-right: 50px;
+}
+
+div#btn{
+    text-align: center;
 }
 
 #video{
@@ -58,7 +26,20 @@ div#intro{
 .img{
     float: left;
     margin-left: 30px;
+    margin-block-end: 20px;
+}
+
+div#gal{
+    clear: both;
+    width: 99.75%;
+    height: 280px;
+    border-radius: 20px;
     margin-block-end: 50px;
+}
+
+#btn3{
+    clear: both;
+    text-align: center;
 }
 
 div#comentario{
@@ -86,33 +67,25 @@ div#comentario{
     text-align: center;
 }
 
-.imgPer{
+#imgPer1{
     float: left;
     text-align: center;
-    margin-left: 20px;
+    margin-left: 60px;
     margin-block-end: 50px;
 }
 
-#pieP{
+.imgPer{
+    float: left;
+    text-align: center;
+    margin-left: 8px;
+    
+}
+
+div#personajes{
     clear: both;
-}
-
-div#contactos{
-    float: left;
-    width: 250px;
-    height: 130px;
-    margin-left: 60px;
-}
-
-#etiqueta{
-    float: left;
-    margin-left: 100px;
-}
-
-div#redesSoc{
-    float: left;
-    width: 250px;
-    height: 130px;
-    margin-left: 100px;
-    margin-bottom: 25px;
+    width: 99.75%;
+    height: 600px;
+    border-radius: 20px;
+    /*margin-left: 30px;*/
+    margin-block-end: 150px;
 }
