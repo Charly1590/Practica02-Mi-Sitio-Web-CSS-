@@ -1,0 +1,17 @@
+body{
+    background-image: url(../imagenes/fondo6.jpg);
+}
+
+h1, h2{
+    font-family: 'Abril Fatface', cursive;
+    color: white;
+}
+
+h3, p{
+    /**font-family: 'Fjalla One', sans-serif;**/
+    font-family: 'Abhaya Libre', serif;
+}
+
+div#separador{
+    background-color: #01B1FF;
+}
