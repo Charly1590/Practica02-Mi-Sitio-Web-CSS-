@@ -6,6 +6,10 @@ body{
     color: white;
 }
 
+#selec{
+    background-color: #A6FFFD;
+}
+
 h1, h2{
     font-family: 'Abril Fatface', cursive;
 }

@@ -6,6 +6,10 @@ h1, h2{
     color: black;
 }
 
+#selec{
+    background-color: #A6FFFD;
+}
+
 span{
     color: white;
 }
@@ -21,10 +25,6 @@ h3, p{
     border: solid 2px #01B1FF;
 }
 
-div#colec{
-    background-color: blueviolet;
-    border: solid 2px #01B1FF;
-}
 
 div#caracteristicas{
     background-color: #4E72FF;

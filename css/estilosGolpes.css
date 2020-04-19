@@ -2,14 +2,19 @@ body{
     background-image: url(../imagenes/golpeDinerito.jpg);
 }
 
-h1, h2{
+h1, h2, h3{
     font-family: 'Abril Fatface', cursive;
-    color: #01B1FF;
+    color: black;
+    text-align: center;
 }
 
 h3, p{
     /**font-family: 'Fjalla One', sans-serif;**/
     font-family: 'Abhaya Libre', serif;
+}
+
+#selec{
+    background-color: #A6FFFD;
 }
 
 blockquote p{
