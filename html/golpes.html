@@ -3,54 +3,94 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   rel="stylesheet" type="text/css" href="../css/cabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosCabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/golpes.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosGolpes.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/footer.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosFooter.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
     <title>Golpes</title>
 </head>
-<body style="background-image: url(../imagenes/golpeDinerito.jpg);background-size: cover;">
-    <header class="logo">
-        <img src="../imagenes/GTA_V_logo.png" width="500" height="500" alt="">
-         <nav>
-                <ul style="color: yellowgreen;">
-                    <li><a href="index.html" style="color: turquoise;">Principal</a></li>
-                    <li><a href="autos.html" style="color: turquoise;">Autos</a></li>
-                    <li><a href="videosDeLaComunidad.html" style="color: turquoise;">Videos</a></li>
-                    <li><a href="golpes.html" style="color: turquoise;">Golpes</a> </li>
-                    <li><a href="negocios.html" style="color: turquoise;">Negocios</a> </li>
-                    <li><a href="Noticias.html" style="color: turquoise;">Noticias</a></li>
-                    <li><a href="actividades.html" style="color: turquoise;">Actividades</a> </li>
-                    <li><a href="eventos.html" style="color: turquoise;">Eventos</a></li>
-                </ul>
-         </nav>
-    </header>
+<body>
+    <div id="header">
+        <header class="logo">
+            <img id="marginlogo" src="../imagenes/GTA_V_logo.png" alt="" width="160" height="160">
+            
+            <blockquote class="iconos">
+                <img src="../imagenes/plus.png" alt="">
+                <p>About</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/message.png" alt="">
+                <p>Message</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/user(2).png" alt="">
+                <p>User</p>
+            </blockquote>
+            <input type="text" id="search" size="90">
+        </header>
+    </div>
+    <ul class="nav">
+        <li><a href="index.html">Principal</a></li>
+        <li><a href="autos.html" >Autos</a></li>
+        <li><a href="videosDeLaComunidad.html" >Videos</a></li>
+        <li><a href="golpes.html" >Golpes</a> </li>
+        <li><a href="negocios.html" >Negocios</a> </li>
+        <li><a href="Noticias.html" >Noticias</a></li>
+        <li><a href="actividades.html">Actividades</a> </li>
+        <li><a href="eventos.html" >Eventos</a></li>
+    </ul>
     <br>
-    <audio controls autoplay loop id="header-video">
-        <source src="../audios/rain.mp3" type="audio/mpeg">
-    </audio>
-    <section>
-        <h2 style="color: white;">Pasos ha realizar</h2>
+    <div id="inicio">
+        <h2 >Pasos ha realizar</h2>
         <article>
-            <h3 style="color: bisque">GOLPES</h3>
-            <p style="color: bisque">Una experiencia cooperativa para 4 jugadores en Grand Theft Auto Online que ofrece la posibilidad de agruparse para llevar a cabo una serie de intensos golpes en varias fases, con asaltos y atracos por todo Los Santos y el condado de Blaine.</p>
+            <h3>GOLPES</h3>
+            <p>Una experiencia cooperativa para 4 jugadores en Grand Theft Auto Online que ofrece la posibilidad de agruparse para llevar a cabo una serie de intensos golpes en varias fases, con asaltos y atracos por todo Los Santos y el condado de Blaine.</p>
+        </article>
+        <audio controls loop id="header-video" >
+            <source src="../audios/rain.mp3" type="audio/mpeg">
+        </audio>
+    </div>
+    <div id="pasos"> 
+        <article>
+            <img src="../imagenes/planeaEjecuta.jpg" alt="" width="500" class="img">
+            <h3>PLANEA Y EJECUTA</h3>
+            <p>Los golpes en línea abarcan numerosas misiones que introducen nuevos elementos de juego, vehículos, armas y situaciones para poner a prueba las habilidades de los equipos: desde el hackeo de ordenadores, hasta la infiltración, pasando por la precisión en la conducción, la habilidad como piloto, la puntería, el paracaidismo y muchas más cosas.</p>
         </article>
         <article>
-            <img src="../imagenes/planeaEjecuta.jpg" alt="">
-            <h3 style="color: bisque">PLANEA Y EJECUTA</h3>
-            <p style="color: bisque">Los golpes en línea abarcan numerosas misiones que introducen nuevos elementos de juego, vehículos, armas y situaciones para poner a prueba las habilidades de los equipos: desde el hackeo de ordenadores, hasta la infiltración, pasando por la precisión en la conducción, la habilidad como piloto, la puntería, el paracaidismo y muchas más cosas.</p>
+            <img src="../imagenes/equipos.jpg" alt="" width="500" class="img">
+            <h3 >EQUIPOS DE 4 JUGADORES, 4 MANERAS DE JUGAR</h3>
+            <p>Elegid vuestros papeles y planead la estrategia para cada fase. La comunicación y la coordinación serán claves. Algunas misiones requerirán que trabajéis unidos, mientras que otras separarán a los miembros para completar objetivos clave. Vuelve a jugar cada golpe desde diferentes perspectivas de la acción y completa los desafíos de élite para conseguir más dinero.</p>
         </article>
         <article>
-            <img src="../imagenes/equipos.jpg" alt="">
-            <h3 style="color: bisque">EQUIPOS DE 4 JUGADORES, 4 MANERAS DE JUGAR</h3>
-            <p style="color: bisque;">Elegid vuestros papeles y planead la estrategia para cada fase. La comunicación y la coordinación serán claves. Algunas misiones requerirán que trabajéis unidos, mientras que otras separarán a los miembros para completar objetivos clave. Vuelve a jugar cada golpe desde diferentes perspectivas de la acción y completa los desafíos de élite para conseguir más dinero.</p>
+            <h3 >REÚNE A TU EQUIPO</h3>
+            <p>Crea una Crew o únete a las que ya hay para ganar recompensas adicionales en RP mientras juegas.</p>
         </article>
-        <article>
-            <img src="../imagenes/reunete.jpg" alt="">
-            <h3 style="color: bisque;">REÚNE A TU EQUIPO</h3>
-            <p style="color: bisque;">Crea una Crew o únete a las que ya hay para ganar recompensas adicionales en RP mientras juegas.</p>      </article>
-    </section>
-    <hr>
-    <footer style="color: white;">
-        <span>Call: <a href="tel:0990791348" style="color: white;">+593 0990791348</a></span>
-        <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec" style="color: white;">cpenaf@est.ups.edu.ec</a></span>
-        <span>© Todos los derechos recervados</span>
+    </div>
+    <footer id="pieP">
+        <hr>
+        <img src="../imagenes/etiqueta.png" alt="" id="etiqueta">
+        <div id="contactos">
+            <span>Call: <a href="tel:0990791348">+593 0990791348</a></span>
+            <br>
+            <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec">cpenaf@est.ups.edu.ec</a></span>
+            <br>
+            <span>© Todos los derechos recervados</span>
+        </div>
+        <div id="redesSoc">
+            <blockquote id="facebook">
+                <img src="../imagenes/facebook.png" alt="" width="40px">
+                <span> <a href="https://www.facebook.com/rockstargames/" target="blank">Facebook</a></span>
+            </blockquote>
+            <blockquote id="twiter">
+                <img src="../imagenes/twiter.png" alt="" width="40px"> 
+                <span><a href="https://trendtwitter.com/RockstarGames/" target="blank">twiter</a></span>
+            </blockquote>
+        </div>
     </footer>
 </body>
 </html>

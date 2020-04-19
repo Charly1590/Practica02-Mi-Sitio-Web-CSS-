@@ -1,0 +1,26 @@
+body{
+    background-image: url(../imagenes/golpeDinerito.jpg);
+}
+
+h1, h2{
+    font-family: 'Abril Fatface', cursive;
+    color: #01B1FF;
+}
+
+h3, p{
+    /**font-family: 'Fjalla One', sans-serif;**/
+    font-family: 'Abhaya Libre', serif;
+}
+
+blockquote p{
+    font-family: 'Lobster', cursive;
+}
+
+div#inicio{
+    background-color: blueviolet;
+    border: solid 2px #01B1FF;
+}
+
+div#pasos{
+    background-color: #4F649C;
+}

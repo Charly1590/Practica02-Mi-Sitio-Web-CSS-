@@ -2,9 +2,14 @@ body{
     background-image: url(../imagenes/fondo6.jpg);
 }
 
-h1, h2{
+h1{
     font-family: 'Abril Fatface', cursive;
     color: white;
+}
+
+h2{
+    color: black;
+    background-color: #01B1FF;
 }
 
 h3, p{
