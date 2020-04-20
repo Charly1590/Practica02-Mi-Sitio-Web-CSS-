@@ -24,3 +24,13 @@ h3, p{
 div#separador{
     background-color: #01B1FF;
 }
+
+div#vidCo{
+    border: solid 2px #01B1FF;   
+    background-color: rgb(1, 177, 255,0.1);
+}
+
+div#vidCin{
+    border: solid 2px #01B1FF;   
+    background-color: rgb(1, 177, 255,0.1);
+}

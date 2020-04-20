@@ -3,24 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   rel="stylesheet" type="text/css" href="../css/cabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosCabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/footer.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosFooter.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
     <title>Eventos</title>
 </head>
 <body style="background-image: url(../imagenes/fondo.jpg);background-size: cover;">
-    <header class="logo">
-        <img src="../imagenes/GTA_V_logo.png" width="500" height="500" alt="">
-         <nav>
-               <ul style="color: yellowgreen;">
-                    <li><a href="index.html" style="color: turquoise;">Principal</a></li>
-                    <li><a href="autos.html" style="color: turquoise;">Autos</a></li>
-                    <li><a href="videosDeLaComunidad.html" style="color: turquoise;">Videos</a></li>
-                    <li><a href="golpes.html" style="color: turquoise;">Golpes</a> </li>
-                    <li><a href="negocios.html" style="color: turquoise;">Negocios</a> </li>
-                    <li><a href="Noticias.html" style="color: turquoise;">Noticias</a></li>
-                    <li><a href="actividades.html" style="color: turquoise;">Actividades</a> </li>
-                    <li><a href="eventos.html" style="color: turquoise;">Eventos</a></li>
-               </ul>
-         </nav>
-    </header>
+    <div id="header">
+        <header class="logo">
+            <img id="marginlogo" src="../imagenes/GTA_V_logo.png" alt="" width="160" height="160">
+            <blockquote class="iconos">
+                <img src="../imagenes/plus.png" alt="">
+                <p>About</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/message.png" alt="">
+                <p>Message</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/user(2).png" alt="">
+                <p>User</p>
+            </blockquote>
+            <input type="text" id="search" size="90">
+        </header>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="autos.html" >Autos</a></li>
+            <li><a href="videosDeLaComunidad.html" >Videos</a></li>
+            <li><a href="golpes.html">Golpes</a> </li>
+            <li><a href="negocios.html" >Negocios</a> </li>
+            <li><a href="Noticias.html" id="selec">Noticias</a></li>
+            <li><a href="actividades.html">Actividades</a> </li>
+            <li><a href="eventos.html" >Eventos</a></li>
+        </ul>
+    </nav>
     <br>
     <section style="color: white; text-align: center;"> 
         <h2>EVENTOS</h2>
@@ -43,10 +65,26 @@
         </article>
     </section>
     <hr>
-    <footer style="color: white;">
-        <span>Call: <a href="tel:0990791348" style="color: white;">+593 0990791348</a></span>
-        <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec" style="color: white;">cpenaf@est.ups.edu.ec</a></span>
-        <span>© Todos los derechos recervados</span>
+    <footer id="pieP">
+        <hr>
+        <img src="../imagenes/etiqueta.png" alt="" id="etiqueta">
+        <div id="contactos">
+            <span>Call: <a href="tel:0990791348">+593 0990791348</a></span>
+            <br>
+            <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec">cpenaf@est.ups.edu.ec</a></span>
+            <br>
+            <span>© Todos los derechos recervados</span>
+        </div>
+        <div id="redesSoc">
+            <blockquote id="facebook">
+                <img src="../imagenes/facebook.png" alt="" width="40px">
+                <span> <a href="https://www.facebook.com/rockstargames/" target="blank">Facebook</a></span>
+            </blockquote>
+            <blockquote id="twiter">
+                <img src="../imagenes/twiter.png" alt="" width="40px"> 
+                <span><a href="https://trendtwitter.com/RockstarGames/" target="blank">twiter</a></span>
+            </blockquote>
+        </div>
     </footer>
 </body>
 </html>

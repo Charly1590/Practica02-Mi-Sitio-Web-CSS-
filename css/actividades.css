@@ -1,0 +1,32 @@
+body{
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 0px;
+    margin: 0px;
+}
+
+div#inicio{
+    float: left;
+    width: 400px;
+    height: max-content;
+    border-radius: 20px;
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 15px;
+}
+
+div#mitad{
+    float: left;
+    width: 600px;
+    border-radius: 20px;
+    height: max-content;
+    margin-top: 30px;
+    margin-left: 100px;
+    text-align: center;
+    margin-block-end: 30px;
+}
+
+.img{
+    margin-top: 30px;
+    width: 400px;
+}

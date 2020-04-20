@@ -1,5 +1,6 @@
 .iconos{
     color: white;
+    text-align: center;
 }
 
 h1, h2{
@@ -13,6 +14,11 @@ h3, p{
 
 blockquote p{
     font-family: 'Lobster', cursive;
+}
+
+.iconos:hover{
+    font-family: 'Lobster', cursive;
+    background-color: rgba(94, 119, 231, 0.3);
 }
 
 .nav li a{

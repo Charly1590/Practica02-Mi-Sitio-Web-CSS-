@@ -1,0 +1,30 @@
+body{
+    background-image: url(../imagenes/fondo2.jpg);
+}
+
+h1, h2, h3{
+    font-family: 'Abril Fatface', cursive;
+    text-align: center;
+}
+
+h3, p{
+    /**font-family: 'Fjalla One', sans-serif;**/
+    font-family: 'Abhaya Libre', serif;
+}
+
+h1, h2, h3{
+    color: white;
+}
+
+#selec{
+    background-color: #A6FFFD;
+}
+
+div#inicio{
+    background-color: rgba(128, 9, 175, 0.2);
+}
+
+div#mitad{
+    border: solid 2px rgba(128, 9, 175);
+    background-color: rgba(231, 132, 96, 0.2);
+}    

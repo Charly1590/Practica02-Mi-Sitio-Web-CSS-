@@ -21,9 +21,19 @@ h3, p{
 }
 
 #subMenus{
-    background-color: #3987A8;
+    background-color: rgb(21, 124, 168,0.6);
 }
 
-#medio{
-    background-color: #3987A8;
+.medio{
+    background-color: rgb(153, 161, 259,0.3) ;
+}
+
+.nav2 li a{
+    text-align: center;
+    color: black;
+    font-family: 'Lobster', cursive;
+}
+
+.nav2 li a:hover{
+    background-color: rgb(29, 185, 183);
 }

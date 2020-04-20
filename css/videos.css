@@ -8,25 +8,21 @@ body{
 div#vidCo{
     float: left;
     width: 45%;
-    height: max-content;
+    height: 1020px;
+    border-radius: 20px;
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 15px;
     margin-block-end: 25px;
 }
 
-div#separador{
-    float: left;
-    margin-top: 30px;
-    margin-block-end: 15px;
-    width: 1%;
-    height: 1100px;
-}
+
 
 div#vidCin{
     float: left;
     width: 45%;
-    height: max-content;
+    border-radius: 20px;
+    height: 1020px;
     margin-top: 30px;
     margin-left: 40px;
     margin-right: 15px;

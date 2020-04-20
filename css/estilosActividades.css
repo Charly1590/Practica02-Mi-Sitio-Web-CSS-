@@ -1,0 +1,17 @@
+body{
+    background-image: url(../imagenes/fondo6.jpg);
+}
+
+div#inicio{
+    border: solid 2px rgba(128, 9, 175);
+    background-color: rgb(5, 235, 235,0.1);
+}
+
+div#mitad{
+    background-color: rgba(199, 180, 9, 0.1);
+    border: solid 2px rgba(128, 9, 175);
+}
+
+#selec{
+    background-color: #A6FFFD;
+}

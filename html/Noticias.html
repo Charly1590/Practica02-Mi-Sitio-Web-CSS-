@@ -3,63 +3,104 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link   rel="stylesheet" type="text/css" href="../css/cabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosCabecera.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/noticias.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosNoticias.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/footer.css"/>
+    <link   rel="stylesheet" type="text/css" href="../css/estilosFooter.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
     <title>Noticias</title>
 </head>
-<body style="background-image: url(../imagenes/fondo.jpg);background-size: cover;">
-    <header class="logo">
-        <img src="../imagenes/GTA_V_logo.png"  alt="" width="500" height="500">
-        <img src="../imagenes/noticias3.jpg"  alt="" width="800" height="500">
-         <nav>
-               <ul style="color: yellowgreen;">
-                    <li><a href="index.html" style="color: turquoise;">Principal</a></li>
-                    <li><a href="autos.html" style="color: turquoise;">Autos</a></li>
-                    <li><a href="videosDeLaComunidad.html" style="color: turquoise;">Videos</a></li>
-                    <li><a href="golpes.html" style="color: turquoise;">Golpes</a> </li>
-                    <li><a href="negocios.html" style="color: turquoise;">Negocios</a> </li>
-                    <li><a href="Noticias.html" style="color: turquoise;">Noticias</a></li>
-                    <li><a href="actividades.html" style="color: turquoise;">Actividades</a> </li>
-                    <li><a href="eventos.html" style="color: turquoise;">Eventos</a></li>
-               </ul>
-         </nav>
-    </header>
-    <br>
-    <section>
-        <img src="../imagenes/arenaWar.png" alt="">
-        <h1 style="color: white;">Descuento triple</h1>
-        <article>
-            <h2 style="color: white;">Triple de GTA$ y RP en Motor Wars del
-                26 de marzo al 1 de abril</h2>
-            <aside>
-                <p style="color: white;">Rebaja del 60 % en el Mammoth Avenger hasta el 1 de abril en Warstock Cache & Carry</p>
-                <p style="color: white;">Además, triple de recompensas en Motor Wars y descuentos en instalaciones, vehículos y muchas cosas más</p>
-            </aside>
-        </article> 
-    </section>
-    <section>
-        <img src="../imagenes/instalaciones.png" alt="">
-        <h2 style="color: white;">50 % de descuento en instalaciones</h2>
-        <article style="color: white;">   
-            <img src="../imagenes/desIns.png" alt="">
-            <h2>60 % de descuento en modificaciones de instalaciones</h2>
-            <img src="../imagenes/tallerDes.png" alt="">
-            <aside>
-                <p>60 % de descuento en el taller del vehículo armado Avenger</p>
-            </aside>
-        </article>
-    </section>
-    <br>
-    <section>
-        <h1 style="color: white;">Bonificaciones y ventajas de Twitch Prime</h1>
-        <article style="color: white;"> 
-            <img src="../imagenes/juegos.png" alt="">
-            <h2>Además de un descuento adicional del 10 % que se suma a todos los detallados previamente, los jugadores de GTA Online que vinculen su cuenta de Twitch Prime a la del Social Club de Rockstar Games podrán conseguir el salón recreativo Pixel Pete's de Paleto Bay gratis a través de un reembolso completo del precio base, y una rebaja del 80 % en propiedades del Maze Bank Oeste y en el club nocturno de Misson Row. No olvides visitar Twitch Prime y registrarte si no quieres perderte ninguna de las ventajas futuras.</h2>
-        </article>
-    </section>
-    <hr>
-    <footer style="color: white;">
-        <span>Call: <a href="tel:0990791348" style="color: white;">+593 0990791348</a></span>
-        <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec" style="color: white;">:cpenaf@est.ups.edu.ec</a></span>
-        <span>© Todos los derechos recervados</span>
+<body>
+    <div id="header">
+        <header class="logo">
+            <img id="marginlogo" src="../imagenes/GTA_V_logo.png" alt="" width="160" height="160">
+            
+            <blockquote class="iconos">
+                <img src="../imagenes/plus.png" alt="">
+                <p>About</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/message.png" alt="">
+                <p>Message</p>
+            </blockquote>
+            <blockquote class="iconos">
+                <img src="../imagenes/user(2).png" alt="">
+                <p>User</p>
+            </blockquote>
+            <input type="text" id="search" size="90">
+        </header>
+    </div>
+    <nav>
+        <ul class="nav">
+            <li><a href="index.html">Principal</a></li>
+            <li><a href="autos.html" >Autos</a></li>
+            <li><a href="videosDeLaComunidad.html" >Videos</a></li>
+            <li><a href="golpes.html">Golpes</a> </li>
+            <li><a href="negocios.html" >Negocios</a> </li>
+            <li><a href="Noticias.html" id="selec">Noticias</a></li>
+            <li><a href="actividades.html">Actividades</a> </li>
+            <li><a href="eventos.html" >Eventos</a></li>
+        </ul>
+    </nav>
+    <div id="inicio">
+        <img src="../imagenes/noticias3.jpg" width="400">
+        <section>
+            <h1 >Descuento triple</h1>
+            <article>
+                    <h2 >Triple de GTA$ y RP en Motor Wars del
+                        26 de marzo al 1 de abril</h2>
+                    <aside>
+                        <p >Rebaja del 60 % en el Mammoth Avenger hasta el 1 de abril en Warstock Cache & Carry</p>
+                        <p >Además, triple de recompensas en Motor Wars y descuentos en instalaciones, vehículos y muchas cosas más</p>
+                    </aside>
+            </article> 
+        </section>
+    </div>
+    <div id="mitad">
+        <section>
+            <img src="../imagenes/tallerDes.png" alt="" class="img">
+            <h2 >50 % de descuento en instalaciones</h2>
+            <article >   
+                <img alt="">
+                <h2>60 % de descuento en modificaciones de instalaciones</h2>
+                <aside>
+                    <p>60 % de descuento en el taller del vehículo armado Avenger</p>
+                </aside>
+            </article>
+        </section>
+        <br>
+        <section>
+            <h1>Bonificaciones y ventajas de Twitch Prime</h1>
+            <article> 
+                <img src="../imagenes/juegos.png" alt="">
+                <h2>Además de un descuento adicional del 10 % que se suma a todos los detallados previamente, los jugadores de GTA Online que vinculen su cuenta de Twitch Prime a la del Social Club de Rockstar Games podrán conseguir el salón recreativo Pixel Pete's de Paleto Bay gratis a través de un reembolso completo del precio base, y una rebaja del 80 % en propiedades del Maze Bank Oeste y en el club nocturno de Misson Row. No olvides visitar Twitch Prime y registrarte si no quieres perderte ninguna de las ventajas futuras.</h2>
+            </article>
+        </section>           
+    </div>
+    <footer id="pieP">
+        <hr>
+        <img src="../imagenes/etiqueta.png" alt="" id="etiqueta">
+        <div id="contactos">
+            <span>Call: <a href="tel:0990791348">+593 0990791348</a></span>
+            <br>
+            <span>Email: <a href="mailto:cpenaf@est.ups.edu.ec">cpenaf@est.ups.edu.ec</a></span>
+            <br>
+            <span>© Todos los derechos recervados</span>
+        </div>
+        <div id="redesSoc">
+            <blockquote id="facebook">
+                <img src="../imagenes/facebook.png" alt="" width="40px">
+                <span> <a href="https://www.facebook.com/rockstargames/" target="blank">Facebook</a></span>
+            </blockquote>
+            <blockquote id="twiter">
+                <img src="../imagenes/twiter.png" alt="" width="40px"> 
+                <span><a href="https://trendtwitter.com/RockstarGames/" target="blank">twiter</a></span>
+            </blockquote>
+        </div>
     </footer>
 </body>
 </html>
