@@ -10,7 +10,7 @@ div#subMenus{
     background-attachment: fixed;
     border-radius: 20px;
     width: 250px;
-    height: 900px;
+    height: 1000px;
     margin-top: 30px;
     margin-left: 30px;
     margin-right: 30px;
@@ -21,7 +21,7 @@ div#subMenus{
     margin-top: 30px;
     width: 720px;
     height: max-content;
-    margin-block-end: 30px;
+    margin-bottom: 30px;
 }
 
 div#right{

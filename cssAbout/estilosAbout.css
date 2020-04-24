@@ -1,0 +1,9 @@
+body{
+    background-image: url(../imagenes/fondo.jpg);
+    /*background-color: black;*/
+    color: aqua;
+}
+
+#centro{
+    background-color: rgb(8, 8, 8,0.5);
+}

@@ -1,6 +1,5 @@
 body{
     background-size: cover;
-    background-attachment: none;
     padding: 0px;
     margin: 0px;
 }
@@ -20,7 +19,7 @@ div#pasos{
     width: 960px;
     height: max-content;
     margin-top: 30px;
-    margin-block-end: 35px;
+    margin-bottom: 35px;
 }
 
 .img{

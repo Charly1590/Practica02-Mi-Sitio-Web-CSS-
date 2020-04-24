@@ -9,26 +9,33 @@
     <link   rel="stylesheet" type="text/css" href="../cssUser/estilosUser.css"/>
     <link   rel="stylesheet" type="text/css" href="../css/footer.css"/>
     <link   rel="stylesheet" type="text/css" href="../css/estilosFooter.css"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap" rel="stylesheet">
     <title>Login</title>
 </head>
 <body>
     <div id="header">
         <header class="logo">
             <img id="marginlogo" src="../imagenes/GTA_V_logo.png" alt="" width="160" height="160">
-            
-            <blockquote class="iconos">
-                <img src="../imagenes/plus.png" alt="">
-                <p>About</p>
-            </blockquote>
-            <blockquote class="iconos">
-                <img src="../imagenes/message.png" alt="">
-                <p>Message</p>
-            </blockquote>
-            <blockquote class="iconos">
-                <img src="../imagenes/user(2).png" alt="">
-                <p>User</p>
-            </blockquote>
+            <a href="about.html">
+                <blockquote class="iconos">
+                    <img src="../imagenes/plus.png" alt="">
+                    <p>About</p>
+                </blockquote>
+            </a>
+            <a href="message.html">
+                <blockquote class="iconos">
+                    <img src="../imagenes/message.png" alt="">
+                    <p>Message</p>
+                </blockquote>
+            </a>
+           <a href="user.html">
+                <blockquote class="iconos">
+                    <img src="../imagenes/user(2).png" alt="">
+                    <p>User</p>
+                </blockquote>
+           </a>
             <input type="text" id="search" size="90">
         </header>
     </div>
@@ -49,14 +56,21 @@
             <fieldset>
                 <legend>Login</legend>
                 
-                <label for="user">User:</label>
-                <input type="text" id="user">
+                <label id="textUser">User:</label>
+                <div class="inputP">
+                    <input type="text" id="user" size="30">
+                </div>
                 <br>
-                <label for="password">Password:</label>
-                <input type="text" id="password" size="50">
-                
-                <input class="btnLog" type="submit" value="Login">
-    
+                <br>
+                <label id="textPassword">Password:</label>
+                <div class="inputP">
+                    <input type="text" id="password" size="30">
+                </div>
+                <br>
+               <div id="btnlog">
+                   <br>
+                    <input class="btnLog" type="submit" value="Login">
+               </div>
             </fieldset>
         </form>
     </div>
@@ -72,11 +86,11 @@
         </div>
         <div id="redesSoc">
             <blockquote id="facebook">
-                <img src="../imagenes/facebook.png" alt="" width="40px">
+                <img src="../imagenes/facebook.png" alt="" width="40">
                 <span> <a href="https://www.facebook.com/rockstargames/" target="blank">Facebook</a></span>
             </blockquote>
             <blockquote id="twiter">
-                <img src="../imagenes/twiter.png" alt="" width="40px"> 
+                <img src="../imagenes/twiter.png" alt="" width="40"> 
                 <span><a href="https://trendtwitter.com/RockstarGames/" target="blank">twiter</a></span>
             </blockquote>
         </div>

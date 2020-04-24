@@ -10,5 +10,32 @@ body{
     height: max-content;
     margin-top: 100px;
     margin-left: 400px;
-    margin-block-end: 100px;
+    margin-bottom: 120px;
+    
+}
+
+#textUser{
+    float: left;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-right: 56px;
+}
+
+#textPassword{
+    float: left;
+    margin-top: 15px;
+    margin-left: 50px;
+    margin-right: 25px;
+    margin-bottom: 5px;
+}
+
+div.inputP{
+    float: left;
+    margin-top: 15px;
+}
+
+div#btnlog{
+    float: left;
+    margin-left: 100px;
+    margin-bottom: 15px;
 }

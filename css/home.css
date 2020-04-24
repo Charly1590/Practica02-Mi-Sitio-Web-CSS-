@@ -19,14 +19,15 @@ div#btn{
 
 #video{
     float: left;
-    margin-block-end: 50px;
+    margin-bottom: 50px;
     margin-top: 44px;
 }
 
 .img{
     float: left;
     margin-left: 30px;
-    margin-block-end: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
 }
 
 div#gal{
@@ -34,7 +35,7 @@ div#gal{
     width: 99.75%;
     height: 280px;
     border-radius: 20px;
-    margin-block-end: 50px;
+    margin-bottom: 50px;
 }
 
 #btn3{
@@ -46,7 +47,7 @@ div#comentario{
     clear: both;
     float: left;
     margin-left: 60px;
-    margin-block-end: 50px;
+    margin-bottom: 50px;
     width: 600px;
     height: 120px;
 }
@@ -67,25 +68,27 @@ div#comentario{
     text-align: center;
 }
 
-#imgPer1{
+.imgPer1{
     float: left;
     text-align: center;
-    margin-left: 60px;
-    margin-block-end: 50px;
+    margin-left: 8px;
+    border-radius: 200px;
+    width: 140px;
 }
 
 .imgPer{
     float: left;
     text-align: center;
     margin-left: 8px;
-    
+    border-radius: 200px;
+    width: 140px;
 }
 
 div#personajes{
     clear: both;
     width: 99.75%;
-    height: 600px;
+    height: 300px;
     border-radius: 20px;
     /*margin-left: 30px;*/
-    margin-block-end: 150px;
+    margin-bottom: 150px;
 }

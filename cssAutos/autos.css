@@ -1,6 +1,5 @@
 body{
     background-size: cover;
-    background-attachment: none;
     padding: 0px;
     margin: 0px;
 }
@@ -20,7 +19,7 @@ div#colec{
     width: 1015px;
     height: max-content;
     margin-top: 30px;
-    margin-block-end: 10px;
+    margin-bottom: 10px;
 }
 
 div#caracteristicas{
@@ -29,7 +28,7 @@ div#caracteristicas{
     height: max-content;
     margin-left: 310px;
     margin-top: 30px;
-    margin-block-end: 30px;
+    margin-bottom: 30px;
     border-radius: 30px;
 }
 
