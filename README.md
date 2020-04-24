@@ -91,14 +91,14 @@
 ![38](/imagenesReadme/38.jpg?raw=true "Title")
 # estilosFooter.css
 ![39](/imagenesReadme/39.jpg?raw=true "Title")
-## 4. Luego, se debe crear el archivo README del repositorio de GitHub.
+# 4. Luego, se debe crear el archivo README del repositorio de GitHub.
 # Para el header se creo un css para que se pueda usar para todas las paginas así mismo se creo un css para el footer
 # Comnesaremos explicando cada estilo del css en el cabecera.css
 ![40](/imagenesReadme/40.jpg?raw=true "Title") 
 # Aquí definimos el ancho y el largo que tomara la cabecera así como su posicionamiento desde la izquierda de la pagina 
 ![41](/imagenesReadme/41.jpg?raw=true "Title")
 ![42](/imagenesReadme/42.jpg?raw=true "Title")
-# Este estilo sirve para poder posicionar de una manera centrada la barra de búsqueda dentro del header
+### Este estilo sirve para poder posicionar de una manera centrada la barra de búsqueda dentro del header
 ![43](/imagenesReadme/43.jpg?raw=true "Title")
 ![44](/imagenesReadme/44.jpg?raw=true "Title")
 ![45](/imagenesReadme/45.jpg?raw=true "Title")
@@ -115,7 +115,7 @@
 ![50](/imagenesReadme/50.jpg?raw=true "Title")
 # Estilos estilos le dan el color y estilo de letra para el menú y a la vez agregamos una sub clase hover para cuando pasemos el ratón sobre el menú se cambie de color
 ![51](/imagenesReadme/51.jpg?raw=true "Title")
-## Footer.css
+# Footer.css
 ![52](/imagenesReadme/52.jpg?raw=true "Title")
 # Con este estilo lo que hacemos es poner separaciones al apartado de la advertencia de restricción de edad
 ![53](/imagenesReadme/53.jpg?raw=true "Title")
@@ -125,7 +125,7 @@
 ![55](/imagenesReadme/55.jpg?raw=true "Title")
 
 ![56](/imagenesReadme/56.jpg?raw=true "Title")
-## home.css
+# home.css
 ![57](/imagenesReadme/57.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina y ponemos un fixed para que el fondo no se mueva cuando movamos la pagina con el scroll.
 ![58](/imagenesReadme/58.jpg?raw=true "Title")
@@ -145,7 +145,7 @@
 # Estas etiquetas nos sirven para el posicionamiento de los blockquote que contienen a las imágenes y nombres de los integrantes del equipo.
 # Así mismo se crea una pequeña sección para poder acomodar de una mejor manera los blockcuote.
 ![67](/imagenesReadme/67.jpg?raw=true "Title")
-## Autos.css
+# Autos.css
 ![68](/imagenesReadme/68.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![69](/imagenesReadme/69.jpg?raw=true "Title")
@@ -157,14 +157,14 @@
 ![73](/imagenesReadme/73.jpg?raw=true "Title")
 # Con esto delimitamos otra sección para poder poner la descripción de algunas marcas de auto que se encuentran dentro del juego, estas características
 ![74](/imagenesReadme/74.jpg?raw=true "Title")
-## Videos.css
+# Videos.css
 ![75](/imagenesReadme/75.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![76](/imagenesReadme/76.jpg?raw=true "Title")
 # Con este estilo lo que hacemos es poner la sección de videos cinematicas del juego en la parte derecha de la página
 ![77](/imagenesReadme/77.jpg?raw=true "Title")
 ![78](/imagenesReadme/78.jpg?raw=true "Title")
-## Golpes.css
+# Golpes.css
 ![79](/imagenesReadme/79.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![80](/imagenesReadme/80.jpg?raw=true "Title")
@@ -201,7 +201,7 @@
 # Estos estilos nos ayudan a poner en la parte media las noticias de la semana dentro del juego; la clase .img nos ayuda a delimitar espacios entre las imágenes y los textos
 ![99](/imagenesReadme/99.jpg?raw=true "Title")
 ![100](/imagenesReadme/100.jpg?raw=true "Title")
-## Actividades.css
+# Actividades.css
 ![101](/imagenesReadme/101.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina y ponemos un fixed para que el fondo no se mueva cuando movamos la pagina con el scroll
 ![102](/imagenesReadme/102.jpg?raw=true "Title")
@@ -210,7 +210,7 @@
 ![104](/imagenesReadme/104.jpg?raw=true "Title")
 # Estos estilos nos ayudan a poner en la parte media las actividades de la semana dentro del juego; la clase .img nos ayuda a delimitar espacios entre las imágenes y los textos
 ![105](/imagenesReadme/105.jpg?raw=true "Title")
-## Eventos.css
+# Eventos.css
 ![106](/imagenesReadme/106.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina y ponemos un fixed para que el fondo no se mueva cuando movamos la pagina con el scroll
 ![107](/imagenesReadme/107.jpg?raw=true "Title")
@@ -219,32 +219,32 @@
 ![109](/imagenesReadme/109.jpg?raw=true "Title")
 # Estos estilos nos ayudan a poner en la parte media los eventos de la semana dentro del juego; la clase .img nos ayuda a delimitar espacios entre las imágenes y los textos
 ![110](/imagenesReadme/110.jpg?raw=true "Title")
-## User.css
+# User.css
 ![111](/imagenesReadme/111.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![112](/imagenesReadme/112.jpg?raw=true "Title")
 # Con estos estilos lo que se hace es realizar una sección centrada para poder ubicar el formulario así mismo con se administran los espacios entre textos y los inputs de dicho formulario.
 ![113](/imagenesReadme/113.jpg?raw=true "Title")
-## Message.css
+# Message.css
 ![114](/imagenesReadme/114.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![115](/imagenesReadme/115.jpg?raw=true "Title")
 # Con estos estilos lo que se hace es realizar una sección centrada para poder ubicar el formulario así mismo con se administran los espacios entre textos y los inputs de dicho formulario
 ![116](/imagenesReadme/116.jpg?raw=true "Title")
-## About.css
+# About.css
 ![117](/imagenesReadme/117.jpg?raw=true "Title")
 # Con este estilo eliminamos los brodes de la pagina para que nuestra pagina tenga una mejor estética al mismo tiempo ponemos un cover para que la imagen de fondo se extienda al tamaño de la pangina
 ![118](/imagenesReadme/118.jpg?raw=true "Title")
 # Con este estilo lo que se hace es realizar una sección centrada para poder ubicar el articulo
 ![119](/imagenesReadme/119.jpg?raw=true "Title")
-## 6.	Se pide que se organice por lo menos cuatro archivos css
+# 6.	Se pide que se organice por lo menos cuatro archivos css
 ![120](/imagenesReadme/120.jpg?raw=true "Title")
 ![121](/imagenesReadme/121.jpg?raw=true "Title")
-## 7.	Se pide que se utilice selectores por etiquetas selectores decendentes, selectores por clase y por id
+# 7.	Se pide que se utilice selectores por etiquetas selectores decendentes, selectores por clase y por id
 ![122](/imagenesReadme/122.jpg?raw=true "Title")
-## 8.	Se pide que se personalicen estilos referente a texto tanto en color, tamaño, fuente decoraciones. Etc
+# 8.	Se pide que se personalicen estilos referente a texto tanto en color, tamaño, fuente decoraciones. Etc
 ![123](/imagenesReadme/123.jpg?raw=true "Title")
-## 9.	Se pide que se personalice todos los hipervinculos usando pseudoclases
+# 9.	Se pide que se personalice todos los hipervinculos usando pseudoclases
 ![124](/imagenesReadme/124.jpg?raw=true "Title")
-## 10.	Se pide que se cree un menu horizontal para todas las paginas
+# 10.	Se pide que se cree un menu horizontal para todas las paginas
 ![125](/imagenesReadme/125.jpg?raw=true "Title")
