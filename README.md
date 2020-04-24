@@ -69,30 +69,30 @@
 ![29](/imagenesReadme/29.jpg?raw=true "Title")
 # Pagina user
 # User.html
-![23](/imagenesReadme/23.jpg?raw=true "Title")
+![30](/imagenesReadme/30.jpg?raw=true "Title")
 # user.css
-![24](/imagenesReadme/24.jpg?raw=true "Title")
+![31](/imagenesReadme/31.jpg?raw=true "Title")
 # estilosUser.css
-![25](/imagenesReadme/25.jpg?raw=true "Title")
+![32](/imagenesReadme/32.jpg?raw=true "Title")
 # Pagina de videos
 # videosDeLaComunidad.html
-![26](/imagenesReadme/26.jpg?raw=true "Title")
+![33](/imagenesReadme/33.jpg?raw=true "Title")
 # Videos.css
-![27](/imagenesReadme/27.jpg?raw=true "Title")
+![34](/imagenesReadme/34.jpg?raw=true "Title")
 # estilosVideos.css
-![28](/imagenesReadme/28.jpg?raw=true "Title")
+![35](/imagenesReadme/35.jpg?raw=true "Title")
 # Cabecera
 # Cabecera.css
-![29](/imagenesReadme/29.jpg?raw=true "Title")
+![36](/imagenesReadme/36.jpg?raw=true "Title")
 # estilosCabecera.css
-![30](/imagenesReadme/30.jpg?raw=true "Title")
+![37](/imagenesReadme/37.jpg?raw=true "Title")
 # Footer
 # Footer.css
-![31](/imagenesReadme/31.jpg?raw=true "Title")
+![38](/imagenesReadme/38.jpg?raw=true "Title")
 # estilosFooter.css
-![32](/imagenesReadme/32.jpg?raw=true "Title")
+![39](/imagenesReadme/39.jpg?raw=true "Title")
 ## 4. Luego, se debe crear el archivo README del repositorio de GitHub.
 # Para el header se creo un css para que se pueda usar para todas las paginas así mismo se creo un css para el footer
 # Comnesaremos explicando cada estilo del css en el cabecera.css
-![33](/imagenesReadme/33.jpg?raw=true "Title") Aquí definimos el ancho y el largo que tomara la cabecera así como su posicionamiento desde la izquierda de la pagina 
+![40](/imagenesReadme/33.jpg?raw=true "Title") Aquí definimos el ancho y el largo que tomara la cabecera así como su posicionamiento desde la izquierda de la pagina 
 
